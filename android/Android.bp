@@ -39,6 +39,7 @@ cc_defaults {
 cc_library_static {
     name: "libsqlite3_android",
     defaults: ["libsqlite3_android_defaults"],
+    recovery_available: true,
     vendor_available: true,
     native_bridge_supported: true,
     target: {
